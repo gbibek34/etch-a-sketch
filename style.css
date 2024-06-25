@@ -1,0 +1,53 @@
+* {
+    font-family: "Arial";
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.customize,
+.btn {
+    font-weight: bold;
+
+    width: fit-content;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 30px;
+
+    cursor: pointer;
+
+    color: azure;
+    border-radius: 2px;
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+
+    background-color: white;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.cell {
+    flex: 1;
+
+    border: 1px solid gray;
+}
+
+.modifiers {
+    display: flex;
+    flex-direction: row;
+
+    width: 500px;
+    margin: 10px auto;
+}
